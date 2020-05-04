@@ -136,7 +136,7 @@ Populated automatically by `org-super-agenda--def-auto-group'.")
 (defvar org-super-agenda-group-transformers nil
   "List of agenda group transformers.")
 
-(defvar org-super-agenda-header-map (copy-keymap org-agenda-mode-map)
+(defvar org-super-agenda-header-map (copy-keymap evil-org-mode-map)
   "Keymap applied to agenda group headers.
 This is initialized to a copy of `org-agenda-mode-map'; changes
 made to that map after this variable is defined will not be
